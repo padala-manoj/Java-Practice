@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Operators {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter values of x and y:");
+        int x=sc.nextInt();
+        int y=sc.nextInt();
+        System.out.println("x+y = "+(x+y));
+        System.out.println("x-y = "+(x-y));
+        System.out.println("x*y = "+(x*y));
+        if(y!=0){
+         System.out.println("x/y = "+(x/y));
+         System.out.println("x%y = "+(x%y));
+        }
+        else{
+            System.out.println("Division and Modulus by zero is not allowed.");
+        }
+    }
+
+    
+}
